@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid">
+        <i style="font-size: 40px;" class="fas fa-shipping-fast text-white" routerLink="product">
+        </i>
+        <a class="navbar-brand ms-5 text-white" style="font-size: 30px;" routerLink="product"><strong>Brand
+                Factory</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+            <form class="d-flex">
+                <input class="form-control me-2 p-search ms-5" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn btn-primary active" type="submit">Search</button>
+            </form>
+            <button class="btn btn-primary ms-5" routerLink="cart">
+                <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+                <div style="font-size: 10px;" class="badget bg-danger ms-2">{{totalItemNumber}}</div>
+            </button>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,15 @@
+.s-icon{
+    position: relative;
+    z-index: 10;
+    color: blue;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+.p-search{
+      width: 40vw !important;
+  }
+@media screen and (max-width: 500px) {
+  .p-search{
+      width: 100% !important;
+  }
+}
